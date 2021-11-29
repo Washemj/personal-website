@@ -1,0 +1,190 @@
+
+* {
+    padding: 0;
+    margin: 0;
+    /* box-sizing: border-box; */
+}
+
+.padding{padding: 5%}
+.padding2{padding: 10%;}
+.padding3{padding: 3%;}
+.margin-right{margin-right: 1%;}
+.margin-top{margin-top: 2%;}
+.radius{border-radius: 20px;}
+.centre{text-align: center;}
+.right{text-align: right;}
+.tall-50 {min-height: 50vh;}
+.width-65{max-width:65%;}
+.light{color: rgb(250,250,250);}
+.dark{color: #2E4C6D;}
+.font-o {color: #FC997C;}
+.small{font-size: 0.7rem;}
+.justify{text-align: justify;}
+.right{text-align: right}
+
+.bg-col2 {background-color: #2E4C6D;}
+.bg-col{background-color: #396EB0;}
+.bg-col3{background-color: #DADDFC;}
+
+.carousel-indicators{bottom: 30px;}
+
+body {
+  background-color:#DADDFC;
+  font-family: 'Lato', sans-serif;
+  /* color: rgb(80,80,80); */
+  color: rgb(250,250,250);
+  overflow-x: hidden;
+}
+
+hr {
+  border-style:dotted none none none;
+  border-width:10px;
+  border-color:#2E4C6D;
+  width:20vw;
+  margin:auto;
+  background-color: inherit;
+}
+
+h1 {
+  color: #FC997C;
+  /* color: #DADDFC; */
+  font-family: 'Satisfy', serif;
+  font-size: 4rem;
+  /* font-weight: bold; */
+}
+h2, h3 {
+  color:#FC997C;
+}
+h4 {
+  padding: 25px 0;
+}
+h5 {
+  margin-top:0;
+}
+th,td {
+  padding:0 30px 0.4rem 0;
+}
+ul, ol {
+  margin-left: 15px;
+  padding-left: 0;
+}
+li {padding-left: 15px;}
+.second-list{padding-left: 15px;}
+header {
+  width:80vw;
+  /* background-color: #DBE2EF; */
+}
+i {
+  font-size: 2rem;
+}
+nav img {
+  width:2.5%;
+}
+p em {color: rgb(100,100,100);}
+a {
+  text-decoration: none;
+  color: inherit;
+}
+a:hover {
+  color: #FC997C;
+}
+
+/* Background Images */
+.bg-image {
+  background-color: #24282B;
+  background-size: cover;
+  background-image: url(ladder.jpg);
+}
+
+.bg-image1 {
+  background-color: #24282B;
+  background-size: cover;
+  background-position: top;
+  /* background-repeat: no-repeat; */
+  background-image: url(ladder.jpg);
+  padding: 0;
+  margin: 0;
+}
+
+.bg-eng {
+  background-size: cover;
+  background-position: center;
+  background-color: #24282B;
+  background-image: url(https://source.unsplash.com/lx8CooX66ms);
+}
+
+.bg-sparkle {
+  background-size: cover;
+  background-color: #24282B;
+  background-position: 50% 25%;
+  background-image: url(https://source.unsplash.com/ktVazL5c7FM);
+}
+
+.bg-pile {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-image: url(pile.jpg);
+}
+.bg-window {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: bottom;
+  background-image: url(window.jpg);
+}
+.bg-study {
+  background-size: cover;
+  background-position: center;
+  background-color: #24282B;
+  background-image: url(https://source.unsplash.com/93W0xn4961g);
+}
+.bg-info {
+  background-size: cover;
+  background-position: 50% 20%;
+  background-color: #24282B;
+  background-image: url(infosys-tall.jpg);
+}
+.bg-jmon {
+  background-size: cover;
+  background-position: center;
+  background-color: #24282B;
+  background-image: url(jeumont2.jpg);
+}
+.bg-sound {
+  background-size: cover;
+  background-position: center;
+  background-color: white;
+  background-image: url(https://www.ideasforears.org.uk/wp-content/uploads/2017/11/Acoustics-and-background-noise.png);
+}
+.bg-prof{
+  background-size: cover;
+  background-position: 50% 75%;
+  background-color: #24282B;
+  background-image: url(https://source.unsplash.com/OQMZwNd3ThU);
+}
+.bg-bae{
+  background-size: cover;
+  background-position: center;
+  background-color: #24282B;
+  background-image: url(https://source.unsplash.com/_dJCBtdUu74);
+}
+.transbox {
+  background-color: rgba(200,200,200,0.5);
+}
+.arrow{
+  display: inline-block;
+  margin-top:0;
+  font-size:4rem;
+  font-weight:bold;
+  text-decoration:none;
+}
+@media (max-width:768px){
+.bg-study{
+  width: 100%;
+  margin: 5px 0;
+  height: 35vh; }
+.bg-eng{
+  width: 100%;
+  margin: 5px 0;
+  height: 35vh; }
+}
